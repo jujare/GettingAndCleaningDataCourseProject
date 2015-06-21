@@ -6,7 +6,7 @@ output: html_document
 ---
 
 # Setup
-run_analysis.R script should be copied to the directory 'UCI HAR Dataset' containing 'test' and 'train' folders along with the "activity_labels.txt", "features.txt", "features_info.txt" files.
+Set the working directory to point to the directory 'UCI HAR Dataset' containing 'test' and 'train' folders along with the "activity_labels.txt", "features.txt", "features_info.txt" files.
 
 # Following tasks were performed in the run_analysis.R script:
 
