@@ -28,6 +28,11 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 * Subject indicates the identity of the subject involved in the observation.
 * Activity indicates the activity performed in the observation.
 
+## Units
+* All variables except 'Subject' and 'Activity' are of numeric type. These are averages of normalized values which are bounded within [-1, 1].
+* Subject is of integer type which indicates the identity of the subject involved in the observation.
+* Activity is of Factor type which indicates the type of activity being performed in the observation.
+
 # Preparing tidy data
 
 Following tasks were performed in the run_analysis.R script:
